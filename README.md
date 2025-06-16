@@ -1,5 +1,5 @@
 # 魔方财务 YUNYOO 主题模板
-![1](https://github.com/user-attachments/assets/b5b43692-197c-44b2-8814-164144deb5d6)
+![1](https://raw.githubusercontent.com/huancloud/idcsmart-yunyoo-web/refs/heads/main/theme.jpg)
 ## 介绍
 
 YUNYOO Themes 是一款基于魔方财务系统的主题模板。拥有直观简洁的界面设计，在简洁的同时保持顺畅的使用体验。
