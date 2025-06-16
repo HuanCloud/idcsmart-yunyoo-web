@@ -17,8 +17,11 @@ YUNYOO Themes 会持续维护更新和优化完善，不断提供更多的新功
 - **简洁易用**：直观界面设计，简化操作流程。
 - **优雅美观**：顺畅交互体验，现代视觉风格。
 - **开源免费**：遵循开源协议，自由使用修改。
+- 
+## 更多
 
-
+- 配套的用户中心模板：[idcsmart-yunyoo-clientarea](https://github.com/yunyoo-opensource/idcsmart-yunyoo-clientarea)
+- 配套的购物车模板：[idcsmart-yunyoo-cart](https://github.com/yunyoo-opensource/idcsmart-yunyoo-cart)
 
 ## 快速开始
 
