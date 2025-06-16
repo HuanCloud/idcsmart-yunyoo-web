@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="CN">
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="msapplication-tap-highlight" content="no">
+
+    <title>联系我们 - 欢云 HUANCLOUD</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="欢云 HUANCLOUD" />
+  <!-- link -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/tiny-slider.css">
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/glightbox.css">
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/flatpickr.min.css">
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/choices.min.css">
+  <link rel="stylesheet" href="assets\css\result.css">
+  <!-- Theme CSS -->
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/style.css?v=1.0.16">
+  <link rel="stylesheet" type="text/css" href="/themes/web/yunyoo/assets/css/yunyoo.css?v=1.0.23">
+  <!--loading-->
+  <script src="/themes/web/yunyoo/assets/js/pace.min.js" type="text/javascript"></script>
+
+ <link rel="stylesheet" href="/themes/web/yunyoo/assets/css/flash.css?v=1.0.3">
+
+</head>
+<body class="has-navbar-mobile">
+    <!-- 顶部条幅-->
+  <!-- <div
+    class="alert alert-warning py-2 m-0 bg-primary border-0 rounded-0 alert-dismissible fade show text-center overflow-hidden"
+    role="alert">
+    <p class="text-white m-0">现在注册欢云 HUANCLOUD 体验我们的产品！<a href="register"
+        class="btn btn-xs btn-dark ms-2 mb-0">立即注册，享受优惠</a></p><button type="button"
+      class="btn-close btn-close-white opacity-9 p-3" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div> -->
+   <header class="navbar-light">
+    <nav class="navbar navbar-expand-xl">
+      <div class="container"><button class="navbar-toggler me-3 me-xl-0 p-0 " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation"><span
+            class="navbar-toggler-animation"><span></span><span></span><span></span></span></button><a
+          class="me-auto navbar-brand" href="/"><img class="light-mode-item " src="/themes/web/yunyoo/assets/img/logo/LOGO.svg" alt="logo"
+            height="50px" width="110px"><img class="dark-mode-item" src="/themes/web/yunyoo/assets/img/logo/LOGO-1.svg" alt="logo"
+            height="50px" width="110px"></a>
+        <!--Responsive category toggler-->
+        <!--<button class="navbar-toggler ms-sm-auto mx-3 me-md-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategoryCollapse" aria-controls="navbarCategoryCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-link"></i></button>-->
+        <!--Main navbar START-->
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <li class="nav-item"> <a class="nav-link" href="/activity.html"><i id="activityicon"
+                  class="fa-solid fa-gift fa-sm"></i> <span class="">活动中心</span></a></li>
+            <!--Nav item Listing-->
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="listingMenu"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">产品</a>
+              <ul class="dropdown-menu" aria-labelledby="listingMenu">
+                <li><a class="dropdown-item" href="/cart">云服务器</a></li>
+                <li><a class="dropdown-item" href="/cart">独立服务器</a></li>
+                <li><a class="dropdown-item" href="/cart">虚拟主机</a></li>
+              </ul>
+            </li>
+            <!--Nav item Pages-->
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="pagesMenu"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">支持</a>
+              <ul class="dropdown-menu" aria-labelledby="pagesMenu">
+                <li><a class="dropdown-item" href="/news">新闻中心</a></li>
+                <li><a class="dropdown-item" href="/knowledgebase">帮助中心</a></li>
+                <li><a class="dropdown-item" href="/submitticket">技术工单</a></li>
+                <li><a class="dropdown-item" href="/contect.html">联系我们</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="pagesMenu"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多</a>
+              <ul class="dropdown-menu" aria-labelledby="pagesMenu">
+                <li><a class="dropdown-item" href="/">开源</a></li>
+              </ul>
+            </li>
+            <!--<li class="nav-item"><a class="nav-link" href="#" target="_blank">云上悠悠</a></li>-->
+
+        </div>
+        <ul class="nav flex-row align-items-center list-unstyled ms-xl-auto">
+          <li class="nav-item modeswitch-mini me-2" id="darkModeSwitch">
+            <div class="modeswitch-mini-item">
+              <div class="modeswitch-mini-icon"></div>
+            </div>
+          </li>
+          <!--Language dropdown START-->
+          <!-- <li class="nav-item dropdown"><a class="btn btn-sm btn-primary-soft mb-0" href="#" id="languageDropdown"
+              role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="fa-solid fa-language fa-lg"></i></a>
+            <ul class="dropdown-menu dropdown-animation dropdown-menu-end min-w-auto mt-2"
+              aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item me-4" href="/"><img class="fa-fw me-2" src="/themes/web/yunyoo/assets/img/country/CN.png"
+                    alt="">简体中文</a></li>
+              <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="/themes/web/yunyoo/assets/img/country/HK.png"
+                    alt="">繁體中文</a></li>
+              <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="/themes/web/yunyoo/assets/img/country/US.png"
+                    alt="">English</a></li>
+            </ul>
+          </li> -->
+          <li class="nav-item ms-2 d-none d-sm-block"><a href="/login" class="btn btn-sm btn-primary-soft mb-0"><i
+                class="fa-solid fa-right-to-bracket me-2"></i>登录</a></li>
+          <li class="nav-item ms-2 d-none d-sm-block"><a href="/register" class="btn btn-sm btn-primary mb-0"><i
+                class="fa-solid fa-right-to-bracket me-2"></i>注册</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    
+<script type="text/javascript">
+var element = document.getElementById('activityicon');
+if (element) {
+    
+  var startDate = new Date('2024-09-07');
+  var endDate = new Date('2024-09-12');
+  
+  var currentDate = new Date();
+  if (currentDate >= startDate && currentDate <= endDate) {
+    element.classList.add('fa-shake');
+  }
+}
+</script>
+<div class="yunyoo-header"></div>
+<!-- =======================
+Main banner START -->
+<section class="pt-4 pt-md-5">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-xl-10">
+				<!-- Title -->
+				<h1>联系我们</h1>
+				<p class="lead mb-0">业余的运维攻城狮，解决各种疑难杂症 Orz</p>
+			</div>
+		</div>
+
+		<!-- Contact info -->
+		<div class="row g-4">
+
+			<!-- Contact item START -->
+			<div class="col-md-6 col-xl-4">
+				<div class="card card-body shadow text-center align-items-center h-100">
+					<!-- Icon -->
+					<div class="icon-lg bg-info bg-opacity-10 text-info rounded-circle mb-2"><i class="bi bi-headset fs-5"></i></div>
+					<!-- Title -->
+					<h5>提交工单</h5>
+					<p>获得砖业的答复</p>
+					<a href="/submitticket" class="btn btn-dark mb-0">提交工单</a>
+					<!-- Buttons -->
+					<div class="d-grid gap-3 d-sm-block">
+					</div>
+				</div>
+			</div>
+			<!-- Contact item END -->
+
+			<!-- Contact item START -->
+			<div class="col-md-6 col-xl-4">
+				<div class="card card-body shadow text-center align-items-center h-100">
+					<!-- Icon -->
+					<div class="icon-lg bg-danger bg-opacity-10 text-danger rounded-circle mb-2"><i class="bi bi-inboxes-fill fs-5"></i></div>
+					<!-- Title -->
+					<h5>提交邮件</h5>
+					<p>获得一般的答复</p>
+					<!-- Buttons -->
+					<button class="btn btn-sm btn-primary-soft"><i class="bi bi-envelope me-1"></i><a href="mailto:admin@huangetech.com" >admin@huangetech.com</a></button>
+					<!--<button class="btn btn-sm btn-primary-soft"><i class="bi bi-phone me-2"></i>+1(510)738-6999</button>-->
+					
+					<!--<a href="#" class="btn btn-sm btn-primary-soft p-0 mb-0"><i class="bi bi-envelope me-1"></i>xinyu@awaa.cc</a>-->
+				</div>
+			</div>
+			<!-- Contact item END -->
+
+			<!-- Contact item START -->
+			<div class="col-xl-4 position-relative">
+				<!-- Svg decoration -->
+				<figure class="position-absolute top-0 end-0 z-index-1 mt-n4 ms-n7">
+					<svg class="fill-warning" width="77px" height="77px">
+						<path d="M76.997,41.258 L45.173,41.258 L67.676,63.760 L63.763,67.673 L41.261,45.171 L41.261,76.994 L35.728,76.994 L35.728,45.171 L13.226,67.673 L9.313,63.760 L31.816,41.258 L-0.007,41.258 L-0.007,35.725 L31.816,35.725 L9.313,13.223 L13.226,9.311 L35.728,31.813 L35.728,-0.010 L41.261,-0.010 L41.261,31.813 L63.763,9.311 L67.676,13.223 L45.174,35.725 L76.997,35.725 L76.997,41.258 Z"></path>
+					</svg>
+				</figure>
+
+				<div class="card card-body shadow text-center align-items-center h-100">
+					<!-- Icon -->
+					<div class="icon-lg bg-orange bg-opacity-10 text-orange rounded-circle mb-2"><i class="bi bi-globe2 fs-5"></i></div>
+					<!-- Title -->
+					<h5>发送短信</h5>
+					<p>获得随缘的答复</p>
+					<!-- Buttons -->
+					<div class="d-grid gap-3 d-sm-block">
+						<button class="btn btn-sm btn-primary-soft"><i class="bi bi-phone me-2"></i>400-8888-8888</button>
+					</div>
+				</div>
+			</div>
+			<!-- Contact item END -->
+		</div>
+	</div>
+</section>
+<!-- =======================
+Main banner START -->
+<!-- =======================
+Faqs START -->
+<section class="pt-0 pt-lg-5">
+	<div class="container">
+		<!-- Title -->
+		<div class="row">
+			<div class="col-12 text-center mb-4">
+				<h2 class="mb-0">有什么问题吗?
+这里给出了一些答案</h2>
+			</div>
+		</div>
+
+		<!-- Accordion START -->
+		<div class="row">
+			<div class="col-10 mx-auto">
+				<div class="accordion accordion-icon accordion-bg-light" id="accordionExample2">
+					<!-- Item -->
+					<div class="accordion-item mb-3">
+						<h6 class="accordion-header font-base" id="heading-1">
+							<button class="accordion-button fw-bold rounded d-inline-block collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+								什么是云服务器/VPS？
+							</button>
+						</h6>
+						<!-- Body -->
+						<div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordionExample2">
+							<div class="accordion-body mt-3">
+								云服务器/VPS是一个分为完全独立的托管环境的服务器。当您拥有VPS主机时，其中的系统环境完全专用于您。这意味着你不必与其他客户共享资源（如RAM或CPU），你也不太可能受到他们行为的影响.
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="accordion-item mb-3">
+						<h6 class="accordion-header font-base" id="heading-2">
+							<button class="accordion-button fw-bold rounded d-inline-block collapsed d-block pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+								什么是虚拟主机？
+							</button>
+						</h6>
+						<!-- Body -->
+						<div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordionExample2">
+							<div class="accordion-body mt-3">
+								虚拟主机是基于软件层虚拟化技术的网页托管产品，虽然您不能像云服务器一样使用最高权限登录，但此类产品的性价比极高.
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="accordion-item mb-3">
+						<h6 class="accordion-header font-base" id="heading-3">
+							<button class="accordion-button fw-bold collapsed rounded d-block pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+								什么是裸金属/专用服务器
+							</button>
+						</h6>
+						<!-- Body -->
+						<div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#accordionExample2">
+							<div class="accordion-body mt-3">
+								专用服务器是一个真正专用于您而不是其他人的服务器，这意味着您的这台服务器是真实被托管在数据中心的，除了您自己没有其他人共享该台服务器.
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion-item mb-3">
+						<h6 class="accordion-header font-base" id="heading-5">
+							<button class="accordion-button fw-bold collapsed rounded d-block pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+								绑定邮箱或电话未收到信息怎么办？
+							</button>
+						</h6>
+						<!-- Body -->
+						<div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#accordionExample2">
+							<div class="accordion-body mt-3">
+								未收到邮箱请您将本站邮箱添加至您的域名白名单并检查垃圾邮件，若出现问题联系在线客服
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<!--<div class="accordion-item">-->
+					<!--	<h6 class="accordion-header font-base" id="heading-6">-->
+					<!--		<button class="accordion-button fw-bold collapsed rounded d-block pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">-->
+					<!--			购买了主机或者服务器怎么使用？-->
+					<!--		</button>-->
+					<!--	</h6>-->
+						<!-- Body -->
+					<!--	<div id="collapse-6" class="accordion-collapse collapse" aria-labelledby="heading-6" data-bs-parent="#accordionExample2">-->
+					<!--		<div class="accordion-body mt-3">-->
+					<!--			您可观看或阅读我司的相关建站教程视频及文章等-->
+					<!--		</div>-->
+					<!--	</div>-->
+					<!--</div>-->
+				</div>
+			</div>
+		</div>
+		<!-- Accordion END -->
+	</div>
+</section>
+<!-- =======================
+Faqs END -->
+
+<!-- =======================
+Action boxes END -->
+<section class="pt-0 pt-lg-5">
+	<div class="container">
+		<div class="row g-4">
+			<!-- Action box item -->
+			<div class="col-md-6 position-relative overflow-hidden">
+				<div class="bg-primary bg-opacity-10 rounded-3 h-100 p-4">
+					<!-- Content -->
+					<div class="d-flex">
+						<!-- Icon -->
+						<div class="icon-lg text-white bg-primary rounded-circle flex-shrink-0"><i class="bi bi-headset"></i></div>
+						<!-- Content -->
+						<div class="ms-3">
+							<h4 class="mb-1">联系支持？</h4>
+							<p class="mb-3">没有找到您需要的帮助？</p>
+							<a href="contect.html" class="btn btn-dark mb-0">联系我们</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<!-- Action box item -->
+			<div class="col-md-6 position-relative overflow-hidden">
+				<div class="bg-secondary bg-opacity-10 rounded-3 h-100 p-4">
+					<!-- Content -->
+					<div class="d-flex">
+						<!-- Icon -->
+						<div class="icon-lg text-dark bg-warning rounded-circle flex-shrink-0"><i class="fa-solid fa-ticket"></i></div>
+						<!-- Content -->
+						<div class="ms-3">
+							<h4 class="mb-1">提交工单</h4>
+							<p class="mb-3">如果您有任何问题，我们都欢迎您提交一个工单给我们</p>
+							<a href="/submitticket" class="btn btn-dark mb-0">提交工单</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Action boxes END -->
+<!-- Footer START -->
+<footer class="bg-dark pt-5">
+    <div class="container">
+      <!-- Row START -->
+      <div class="row g-4">
+
+        <!-- Widget 1 START -->
+        <div class="col-lg-3">
+          <!-- logo -->
+          <a href="index.html">
+            <img class="h-50px" src="/themes/web/yunyoo/assets/img/logo/LOGO-1.svg" alt="logo">
+            <!--<img class="col-6 col-sm-6 col-lg-12" src="/themes/web/yunyoo/assets/img/logo/LOGO.svg" alt="logo" >-->
+          </a>
+          <p class="my-3 text-muted">欢云 HUANCLOUD</p>
+          <p class="my-3 text-muted">中国.山西</p>
+          <!--<p class="mb-2"><a href="" class="text-muted text-primary-hover"><i class="fas fa-phone"></i></i></a> </p>-->
+          <!--<p class="mb-0"><a href="" class="text-muted text-primary-hover"><i class="fas fa-envelope"></i></a></p>-->
+          <p style="line-height:1.8em;" class="mb-0"><a href="mailto:admin@huangetech.com"
+              class="text-muted text-primary-hover"><i class="fas fa-envelope"> 支持: &nbsp;</i>admin@huangetech.com</a>
+          </p>
+
+
+        </div>
+        <!-- Widget 1 END -->
+
+        <!-- Widget 2 START -->
+        <div class="col-lg-8 ms-auto">
+          <div class="row g-4">
+            <!-- Link block -->
+            <div class="col-6 col-md-3">
+              <h5 class="text-white mb-2 mb-md-4">产品列表</h5>
+              <ul class="nav flex-column text-primary-hover">
+                <li class="nav-item"><a class="nav-link text-muted" href="#">云服务器</a></li>
+                <li class="nav-item"><a class="nav-link text-muted" href="#">独立服务器</a></li>
+                <li class="nav-item"><a class="nav-link text-muted" href="#">虚拟主机</a></li>
+              </ul>
+            </div>
+
+            <!-- Link block -->
+            <div class="col-6 col-md-3">
+              <h5 class="text-white mb-2 mb-md-4">关于我们</h5>
+              <ul class="nav flex-column text-primary-hover">
+                <!--<li class="nav-item"><a class="nav-link text-muted" href="about.html">关于我们</a></li>-->
+                <li class="nav-item"><a class="nav-link text-muted" href="contect.html">联系我们</a></li>
+                <li class="nav-item"><a class="nav-link text-muted" href="/knowledgebaseview?id=1">服务条款</a></li>
+                <!-- <li class="nav-item"><a class="nav-link text-muted" href="/affiliates">推广联盟</a></li> -->
+                <!--<li class="nav-item"><a class="nav-link text-muted" href="services.html">服务保障</a></li>-->
+              </ul>
+            </div>
+
+            <!-- Link block -->
+            <div class="col-6 col-md-3">
+              <h5 class="text-white mb-2 mb-md-4">支持服务</h5>
+              <ul class="nav flex-column text-primary-hover">
+                <li class="nav-item"><a class="nav-link text-muted" href="/submitticket">提交工单</a></li>
+                <li class="nav-item"><a class="nav-link text-muted" href="news">站点新闻</a></li>
+                <li class="nav-item"><a class="nav-link text-muted" href="knowledgebase">帮助中心</a></li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+        <!-- Widget 2 END -->
+
+      </div><!-- Row END -->
+
+
+      
+
+      <!-- Divider -->
+      <hr class="mt-4 mb-0">
+
+      <!-- Bottom footer -->
+      <div class="row">
+        <div class="container">
+          <div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-lg-start">
+            <!-- copyright text -->
+            <div class="text-muted text-primary-hover"> Copyrights <a href="#" target="_blank"
+                class="text-muted">©2023-2025 HUANCLOUD </a>. All rights reserved. </div>
+            <!-- copyright links-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top -->
+<div class="back-top"></div>
+
+  <!-- Bootstrap JS -->
+  <script data-cfasync="false"
+    src="https://yunyoo.cc/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="/themes/web/yunyoo/assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+  <!-- Vendors -->
+  <script src="/themes/web/yunyoo/assets/js/tiny-slider.js" type="text/javascript"></script>
+  <script src="/themes/web/yunyoo/assets/js/glightbox.js" type="text/javascript"></script>
+  <script src="/themes/web/yunyoo/assets/js/flatpickr.min.js" type="text/javascript"></script>
+  <script src="/themes/web/yunyoo/assets/js/choices.min.js" type="text/javascript"></script>
+
+  <!-- ThemeFunctions -->
+  <script src="/themes/web/yunyoo/assets/js/functions.js" type="text/javascript"></script>
+
+</body>
+
+</html>
