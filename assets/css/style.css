@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-global: #b074d1;
+  --bs-global: #5098e8;
   --bs-blue: #1d3b53;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -30,7 +30,7 @@
   --bs-gray-700: #5e5e5f;
   --bs-gray-800: #0b0a12;
   --bs-gray-900: #0b0a12;
-  --bs-primary: #b074d1;
+  --bs-primary: #5098e8;
   --bs-white: #fff;
   --bs-secondary: #85878a;
   --bs-success: #0cbc87;
@@ -20671,7 +20671,7 @@ html[dir=rtl] .choices__input {
   --bs-body-bg: #222529;
   --bs-body-bg-rgb: #222529;
   --bs-body-color: #a1a1a8;
-  --bs-primary: #b074d1 !important;
+  --bs-primary: #5098e8 !important;
   --bs-primary-rgb: 176, 116, 209;
   --bs-link-hover-color:#7a6deb;
   --bs-mode:#191b1d;
